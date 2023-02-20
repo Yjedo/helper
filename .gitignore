@@ -1,0 +1,38 @@
+### 软件配置文件过滤 ###
+.vscode
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env.local
+.env.*.local
+.idea
+*.iws
+*.ipr
+.mvn/
+mvnw
+mvnw.cmd
+
+### 软件日志文件过滤 ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### 项目依赖文件过滤 ###
+node_modules/
+
+### 项目输出文件过滤 ###
+dist/
+target/
+
+### 项目测试文件过滤 ###
+test
+test/
+
+### 其它文件过滤 ###
+*/.gitignore
+HELP.md
+*.jar
+*.tar
