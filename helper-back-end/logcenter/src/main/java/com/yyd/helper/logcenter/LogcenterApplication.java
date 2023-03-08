@@ -1,13 +1,12 @@
-package com.yyd.helper;
+package com.yyd.helper.logcenter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
-
+public class LogcenterApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(LogcenterApplication.class, args);
     }
 
 }
